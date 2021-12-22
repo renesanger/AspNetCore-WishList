@@ -12,9 +12,9 @@ namespace WishList.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public ItemController(ApplicationDbContext ctx)
+        public ItemController(ApplicationDbContext context)
         {
-            _context = ctx;
+            _context = context;
         }
         public IActionResult Index()
         {
